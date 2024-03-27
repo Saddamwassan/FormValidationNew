@@ -1,0 +1,46 @@
+/* css variables  */
+:root{
+    --orange:orange;
+    --bgcolor:rgb(52, 67, 67);
+}
+/* univarsal classes */
+.orange{
+    color:var(--orange);
+}
+/* simple css  */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: grey;
+}
+.main{
+    background-color:var(--bgcolor);
+    border-radius:6px;
+    width:500px;
+}
+form{
+    width:100%;
+}
+/* email div  */
+.emailDiv,.userDiv{
+    /* width: 433px; */
+    position:relative;
+}
+.emailInput, .usernameInput,.phoneInput,.messageInput{
+    width:300px;
+}
+.label{
+    color:white
+}
+/* Error messages  */
+.nameError,.emailError,.phoneError,.messageError{
+    position:absolute;
+    right:40px;
+    color:red;
+}
+i{
+    color:green;
+}
